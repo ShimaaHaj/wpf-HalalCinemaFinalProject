@@ -103,6 +103,9 @@ namespace FinalProject_Halal_Cinema
             btnMovies.Background = new SolidColorBrush(Color.FromRgb(250, 251, 253));
             btnAbout.Background = new SolidColorBrush(Color.FromRgb(11, 70, 174));
             btnExit.Background = new SolidColorBrush(Color.FromRgb(250, 251, 253));
+
+            AboutWindow aboutWindow = new AboutWindow();
+            aboutWindow.ShowDialog();
         }
 
         private void btnAbout_MouseEnter(object sender, MouseEventArgs e)

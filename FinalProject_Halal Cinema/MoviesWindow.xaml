@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalProject_Halal_Cinema"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="المعرض" Height="750" Width="900">
 
 

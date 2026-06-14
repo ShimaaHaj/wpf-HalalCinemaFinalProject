@@ -20,3 +20,5 @@ C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal
 C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\App.baml
 C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\SelectDateWindow.g.cs
 C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\SelectDateWindow.baml
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\AboutWindow.g.cs
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\AboutWindow.baml
