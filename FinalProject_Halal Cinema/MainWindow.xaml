@@ -1,0 +1,118 @@
+﻿<Window x:Class="FinalProject_Halal_Cinema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject_Halal_Cinema"
+        mc:Ignorable="d"
+        Title="الرئيسية" Height="750" Width="900">
+
+
+
+
+
+
+
+
+
+
+    <Grid Background="#f4f6fd">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#043b98">
+            <TextBlock Text="مـــرحبا بـــكـم 🍿" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,0,0,0" FontSize="20" Foreground="#dee4f2"></TextBlock>
+        </Border>
+        
+        
+        
+
+        <Border Grid.Row="1" CornerRadius="7" Margin="30,30,30,30" BorderThickness="1" BorderBrush="#ebedf9" Background="#fafafc">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="9*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"></ColumnDefinition>
+                        <ColumnDefinition Width="6*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Margin="20,30,0,30" BorderThickness="2" BorderBrush="#061b3f" CornerRadius="8">
+                        <Image Source="img/ci1.png" Stretch="Fill"></Image>
+                    </Border>
+
+                    <Grid Grid.Column="1" Margin="0,30,0,30">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="5*"></RowDefinition>
+                            <RowDefinition Height="4*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+                            <Border Margin="0,0,0,30"></Border>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Halal" FontSize="60" FontWeight="ExtraBold" Foreground="#0642a8"></TextBlock>
+                                <TextBlock Text="Cinema" FontSize="50" FontWeight="ExtraBold" Foreground="#061531" Margin="20,6,0,70" FontFamily="Trebuchet MS"></TextBlock>
+                            </StackPanel>
+
+                            <TextBlock Text="الحضارات تُبنى بالأفعال، وتُخلَّد بقصص ترويها الأجيال" FontSize="13" FontWeight="ExtraBold" Margin="0,0,0,10" HorizontalAlignment="Center"></TextBlock>
+                            <TextBlock Text="احجز تذكرتك السينمائية بسهولة" FontSize="11" FontWeight="ExtraBold" Margin="0,0,0,0" HorizontalAlignment="Center" Foreground="#7a7e8e"></TextBlock>
+                            <TextBlock Text="واستمتع بأحدث الأفلام والعروض المتاحة" FontSize="11" FontWeight="ExtraBold" Margin="0,0,0,0" HorizontalAlignment="Center" Foreground="#7a7e8e"></TextBlock>
+                        </StackPanel>
+
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Button x:Name="btnMovies" Grid.Row="0" FontSize="25" BorderThickness="1" BorderBrush="#adc0e8" Background="#0b46ae" Margin="50,0,50,7"
+                                    Click="btnMovies_Click"
+                                    MouseEnter="btnMovies_MouseEnter"
+                                    MouseLeave="btnMovies_MouseLeave">
+                                <StackPanel Orientation="Horizontal">
+                                <TextBlock x:Name="logoBtnMovies" Text="🎞  " Margin="0,0,0,0" Foreground="White"></TextBlock>
+                                <TextBlock x:Name="txtBtnMovies" Text="عرض الافلام" Margin="50,0,0,0" Foreground="White"></TextBlock>
+                                <TextBlock x:Name="arwoBtnMovies" Text="      ❱" Margin="50,0,0,0" Foreground="White"></TextBlock>
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="btnAbout" Grid.Row="1" FontSize="25" BorderThickness="1" BorderBrush="#adc0e8" Background="#fafbfd" Margin="50,0,50,7"
+                                    Click="btnAbout_Click"
+                                    MouseEnter="btnAbout_MouseEnter"
+                                    MouseLeave="btnAbout_MouseLeave">
+                                <StackPanel Orientation="Horizontal">
+                                    <Border x:Name="bordBtnAbout" CornerRadius="15" BorderThickness="1" Background="#0a42a5" BorderBrush="#c6d3ec"> <TextBlock x:Name="logoBtnAbout" Text="  !  " Foreground="#edf1f7"></TextBlock> </Border>
+                                    <TextBlock x:Name="txtBtnAbout" Text="حول النظام" Margin="50,0,0,0" Foreground="#252c48"></TextBlock>
+                                    <TextBlock x:Name="arowBtnAbout" Text="  ❱" Margin="100,0,0,0" Foreground="#305cbb"></TextBlock>
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="btnExit" Grid.Row="2" FontSize="25" BorderThickness="1" BorderBrush="#adc0e8" Background="#fafbfd" Margin="50,0,50,7"
+                                    Click="btnExit_Click"
+                                    MouseEnter="btnExit_MouseEnter"
+                                    MouseLeave="btnExit_MouseLeave">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock x:Name="logoBtnExit" Text=" ⏻  " Margin="0,0,0,0" Foreground="#305cbb"></TextBlock>
+                                    <TextBlock x:Name="txtBtnExit" Text="    خروج" Margin="50,0,0,0" Foreground="#252c48"></TextBlock>
+                                    <TextBlock x:Name="arowBtnExit" Text="      ❱" Margin="100,0,0,0" Foreground="#305cbb"></TextBlock>
+                                </StackPanel>
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <Border Grid.Row="1" Background="#eaf0fb" CornerRadius="0,0,0,0">
+                    <TextBlock Text="✨  سعداء بحضوركم فانتم جمال اللحظة" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20" Foreground="#a9b7d8"></TextBlock>
+                </Border>
+            </Grid>
+        </Border>
+        
+        
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\bin\Debug\FinalProject_Halal Cinema.exe.config
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\bin\Debug\FinalProject_Halal Cinema.exe
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\bin\Debug\FinalProject_Halal Cinema.pdb
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema.csproj.AssemblyReference.cache
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\BookingWindow.g.cs
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\MainWindow.g.cs
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\MoviesWindow.g.cs
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\App.g.cs
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema_MarkupCompile.cache
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema_MarkupCompile.lref
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\BookingWindow.baml
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\MainWindow.baml
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\MoviesWindow.baml
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema.g.resources
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal_Cinema.Properties.Resources.resources
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema.csproj.GenerateResource.cache
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema.csproj.CoreCompileInputs.cache
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema.exe
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\FinalProject_Halal Cinema.pdb
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\App.baml
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\SelectDateWindow.g.cs
+C:\Users\mahmo_d0h3co8\source\repos\FinalProject_Halal Cinema\FinalProject_Halal Cinema\obj\Debug\SelectDateWindow.baml
