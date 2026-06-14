@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mahmo_d0h3co8\\source\\repos\\FinalProject_Halal Cinema\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40FFBBF6-157F-4A78-B8C3-CAA06159FD75}|FinalProject_Halal Cinema\\FinalProject_Halal Cinema.csproj|c:\\users\\mahmo_d0h3co8\\source\\repos\\finalproject_halal cinema\\finalproject_halal cinema\\movieswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40FFBBF6-157F-4A78-B8C3-CAA06159FD75}|FinalProject_Halal Cinema\\FinalProject_Halal Cinema.csproj|solutionrelative:finalproject_halal cinema\\movieswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40FFBBF6-157F-4A78-B8C3-CAA06159FD75}|FinalProject_Halal Cinema\\FinalProject_Halal Cinema.csproj|C:\\Users\\mahmo_d0h3co8\\source\\repos\\FinalProject_Halal Cinema\\finalproject_halal cinema\\movieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40FFBBF6-157F-4A78-B8C3-CAA06159FD75}|FinalProject_Halal Cinema\\FinalProject_Halal Cinema.csproj|solutionrelative:finalproject_halal cinema\\movieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo_d0h3co8\\source\\repos\\FinalProject_Halal Cinema\\FinalProject_Halal Cinema\\MoviesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FinalProject_Halal Cinema\\MoviesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mahmo_d0h3co8\\source\\repos\\FinalProject_Halal Cinema\\FinalProject_Halal Cinema\\MoviesWindow.xaml.cs",
+              "RelativeToolTip": "FinalProject_Halal Cinema\\MoviesWindow.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAD4v3QAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T12:34:41.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mahmo_d0h3co8\\source\\repos\\FinalProject_Halal Cinema\\FinalProject_Halal Cinema\\MoviesWindow.xaml",
+              "RelativeDocumentMoniker": "FinalProject_Halal Cinema\\MoviesWindow.xaml",
+              "ToolTip": "C:\\Users\\mahmo_d0h3co8\\source\\repos\\FinalProject_Halal Cinema\\FinalProject_Halal Cinema\\MoviesWindow.xaml",
+              "RelativeToolTip": "FinalProject_Halal Cinema\\MoviesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-14T12:34:33.668Z"
             }
           ]
         }

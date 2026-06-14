@@ -42,11 +42,65 @@ namespace FinalProject_Halal_Cinema
             goHomePage.Background = new SolidColorBrush(Color.FromRgb(234, 240, 251));
         }
 
-        private void Calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+        private void myCalendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
         {
-            MoviesWindow moviesWindow = new MoviesWindow();
-            moviesWindow.Show();
-            this.Close();
+            if (myCalendar.SelectedDate == null)
+                return;
+
+            DateTime selectedDate = myCalendar.SelectedDate.Value.Date;
+
+            if (IsInvalidDate(selectedDate))
+            {
+                ShowInvalidDateMessage();
+                ClearSelectedDate();
+            }
+            else
+            {
+                ConfirmAndGoToMovies(selectedDate);
+            }
+        }
+
+        private bool IsInvalidDate(DateTime selectedDate)
+        {
+            DateTime firstAllowedDate = DateTime.Today.AddDays(1);
+            DateTime lastAllowedDate = DateTime.Today.AddDays(5);
+
+            return selectedDate < firstAllowedDate || selectedDate > lastAllowedDate;
+        }
+
+        private void ShowInvalidDateMessage()
+        {
+            MessageBox.Show(
+                "هذا التاريخ غير متاح للحجز.\nالرجاء اختيار يوم من الأيام الخمسة القادمة فقط.",
+                "تاريخ غير متاح",
+                MessageBoxButton.OK,
+                MessageBoxImage.Warning);
+        }
+
+        private void ClearSelectedDate()
+        {
+            myCalendar.SelectedDate = null;
+        }
+
+        private void ConfirmAndGoToMovies(DateTime selectedDate)
+        {
+            MessageBoxResult result = MessageBox.Show(
+                "لقد اخترت التاريخ: " + selectedDate.ToString("dd/MM/yyyy") +
+                "\nهل تريد الانتقال إلى قائمة الأفلام؟",
+                "تأكيد اختيار اليوم",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                MoviesWindow moviesWindow = new MoviesWindow();
+                moviesWindow.Show();
+                this.Close();
+            }
+            else
+            {
+                ClearSelectedDate();
+            }
         }
     }
 }
